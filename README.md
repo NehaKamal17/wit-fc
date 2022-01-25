@@ -1,2 +1,3 @@
 # wit-fc
-WIT 
+learning through bootcamp
+### having fun in code
