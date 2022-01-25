@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(20,291,47);
+    background:linear-gradient(to bottom right, rgba(255, 255, 0, 0.829),rgba(255, 0, 0, 0.63));
+    background-image:url(bk.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+a{
+    text-decoration: name;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: black;
+    color: white;
+}
+.logo img{
+    height: 88px;
+    filter: contrast(1000x);
+
+
+}
+.nav links a{
+    color: rgb(252, 245, 245);
+}
+.menu{
+    display:flex;
+    gap: 1em;
+    font: size 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu li:hover{
+background-color:brown;
+border-radius: 5px;
+transition: 0.5s ease-out;
+}
+menu li{
+    padding:5px 4px 0 0;
+}
+.input{
+    border-radius: 3px;
+    font-family: 'Courier New', Coubrier, monospace;
+    background-color: rgb(236, 236, 230);
+    width:50%;
+    transform: translate(50%,50%);
+    
+    padding: 20px;
+}
+input[type=text],select{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+input[type=email],select{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+input[type=radio]{
+    
+    padding: 12px 20px;
+    margin: 8px 20px 0 10px;
+    display: inline-block;
+   
+}
+button{
+    width: 100%;
+    background-color: rgb(209, 197, 179);
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width:100%;
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+}
+/*responsive web*/
+@media(min-width:900px)
+{
+    .input{
+        border-radius: 3px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(167, 222, 243);
+        width:20%;
+        margin: 25px 50px 75px 100px;
+        padding: 20px;
+
+    }
+}
+
+
+
+   
